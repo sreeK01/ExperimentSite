@@ -7,49 +7,25 @@ body {
   background-color: #e8e8e8;
   height: 35px;
   width: 100%;
-
   position: relative;
-
   z-index: 2;
-  /* Add z-index */
-
   display: flex;
   align-items: center;
-
   gap: 1.25%;
-
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
-  /* Add shadow */
-
   color: #6d6e70;
   color: rgb(109, 110, 112);
-
   font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 12px;
   font-weight: 400;
-  font-style: normal;
-  font-variant: normal;
-  font-kerning: auto;
-  font-optical-sizing: auto;
   font-stretch: 100%;
   font-variation-settings: normal;
-  font-feature-settings: normal;
-  text-transform: none;
-
-  letter-spacing: normal;
-  word-spacing: 0px;
-
   text-decoration: none solid rgb(109, 110, 112);
 }
-
-
-
-
 
 .header-1 .glass {
   margin-left: 58%;
   transform: scaleX(-1);
-  /* Flip horizontally */
 }
 
 .header-1 .dot {
@@ -61,41 +37,20 @@ body {
 }
 
 .header-2 {
-  display: flex;
-  justify-content: space-around;
-
-  align-items: center;
-  height: 85px;
   background-color: #f8f8f8;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
-  /* Add shadow */
-
   position: relative;
   z-index: 1;
-  /* Add this */
-
-  padding-left: 70px;
-  padding-right: 70px;
-
   color: #6d6e70;
   font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 18px;
   font-weight: 600;
-  font-style: normal;
-  font-variant: normal;
-  font-kerning: auto;
-  font-optical-sizing: auto;
   font-stretch: 100%;
   font-variation-settings: normal;
-  font-feature-settings: normal;
-  text-transform: none;
-
   line-height: 21px;
-  letter-spacing: normal;
-  word-spacing: 0px;
-
   text-decoration: none solid rgb(0, 0, 0);
   text-indent: 0px;
+  padding: 10px 0;
 }
 
 .donate-nav {
@@ -142,23 +97,10 @@ body {
 }
 
 .find {
-  /* Color */
   color: #ffffff;
-
-  /* Font */
   font-size: 16px;
-
-  /* Spacing */
   line-height: 20px;
-  letter-spacing: normal;
-  word-spacing: 0px;
-
-  /* Decoration */
   font-weight: 100;
-  font-style: normal;
-  font-variant: normal;
-  font-kerning: auto;
-  font-optical-sizing: auto;
   font-stretch: 100%;
 }
 
@@ -177,62 +119,36 @@ body {
   width: 100%;
   display: flex;
   align-items: center;
-
   position: relative;
   z-index: 0;
-  /* Add this */
-
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .header-3 span {
   color: #000000;
-  background-color: #000000;
   background-color: RGBA(0, 0, 0, 0);
-
   font-family: Roboto, Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-size: 12px;
-
   line-height: 18px;
   vertical-align: middle;
-  letter-spacing: normal;
-  word-spacing: 0px;
-
   font-weight: 400;
-  font-style: normal;
-  font-variant: normal;
-  font-kerning: auto;
-  font-optical-sizing: auto;
   font-stretch: 100%;
   font-variation-settings: normal;
-  font-feature-settings: normal;
-  text-transform: none;
   text-align: left;
   text-indent: 0px;
 }
 
 .header-3 h2 {
   color: #000000;
-  background-color: #000000;
   background-color: RGBA(0, 0, 0, 0);
-
   margin: 0;
   padding: 0;
-
   font-family: Roboto, Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-size: 16px;
-
   line-height: 17.6px;
-  letter-spacing: normal;
-
   font-weight: 700;
-  font-style: normal;
-  font-variant: normal;
-  font-kerning: auto;
-  font-optical-sizing: auto;
   font-stretch: 100%;
   font-variation-settings: normal;
-  font-feature-settings: normal;
   text-decoration: none solid rgb(154, 151, 147);
 }
 
@@ -269,54 +185,25 @@ body {
 }
 
 .main-heading {
-  /* Color */
   color: #212529;
-
   margin-bottom: -35px;
-
-  /* Font */
   font-family: Roboto, Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-size: 20px;
-
-  /* Spacing */
   line-height: 64.8px;
-  letter-spacing: normal;
-  word-spacing: 0px;
-
-  /* Decoration */
   font-weight: 900;
-  font-style: normal;
   text-indent: 0px;
-  text-transform: none;
   text-decoration: none solid rgb(33, 37, 41);
 }
 
 .sub-text {
-  /* Color */
   color: #6d6e70;
   color: RGB(109, 110, 112);
-  background-color: #000000;
   background-color: RGBA(0, 0, 0, 0);
-
-  /* Font */
   font-family: Roboto, Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-size: 24px;
-
-  /* Spacing */
   line-height: 28.8px;
-  letter-spacing: normal;
-  word-spacing: 0px;
-
-  /* Decoration */
   font-weight: 400;
-  font-style: normal;
-  font-variant: normal;
-  font-kerning: auto;
-  font-optical-sizing: auto;
-  font-stretch: 100%;
   font-variation-settings: normal;
-  font-feature-settings: normal;
-  text-transform: none;
   text-decoration: none solid rgb(109, 110, 112);
 }
 
@@ -333,29 +220,13 @@ body {
 }
 
 .video h1 {
-  /* Color */
   color: #363b40;
-  background-color: #000000;
   background-color: RGBA(0, 0, 0, 0);
-  /* Font */
   font-family: Roboto, Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-size: 26px;
-  /* Spacing */
   line-height: 28.6px;
-  letter-spacing: normal;
-  word-spacing: 0px;
   padding-left: 10px;
-
-  /* Decoration */
   font-weight: 100;
-  font-style: normal;
-  font-variant: normal;
-  font-kerning: auto;
-  font-optical-sizing: auto;
-  font-stretch: 100%;
-  font-variation-settings: normal;
-  font-feature-settings: normal;
-  text-transform: none;
   text-decoration: none solid rgb(33, 37, 41);
   text-align: left;
   text-indent: 0px;
@@ -363,26 +234,14 @@ body {
 
 .video p {
   padding-left: 10px;
-
   color: #63635f;
-  background-color: #000000;
   background-color: RGBA(0, 0, 0, 0);
-
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
   line-height: 22px;
-  letter-spacing: normal;
-  word-spacing: 0px;
-
   font-weight: 300;
-  font-style: normal;
-  font-variant: normal;
-  font-kerning: auto;
-  font-optical-sizing: auto;
   font-stretch: 100%;
   font-variation-settings: normal;
-  font-feature-settings: normal;
-  text-transform: none;
   text-decoration: none solid rgb(10, 10, 9);
   text-align: left;
   text-indent: 0px;
@@ -391,7 +250,6 @@ body {
 .grey-box {
   display: flex;
   align-items: center;
-
   height: 75px;
   width: 100%;
   background-color: #f0f0f0;
@@ -400,24 +258,12 @@ body {
 
 .grey-box span {
   padding: 42px;
-
   color: #2d2d2d;
-  background-color: #000000;
   background-color: RGBA(0, 0, 0, 0);
-
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
-  letter-spacing: normal;
-  word-spacing: 0px;
-
-  font-style: normal;
-  font-variant: normal;
-  font-kerning: auto;
-  font-optical-sizing: auto;
   font-stretch: 100%;
   font-variation-settings: normal;
-  font-feature-settings: normal;
-  text-transform: none;
   text-decoration: none solid rgb(10, 10, 9);
   text-indent: 0px;
 }
@@ -439,28 +285,13 @@ body {
 }
 
 .main-heading-2 {
-  /* Background Color */
-  background-color: #000000;
   background-color: RGBA(0, 0, 0, 0);
-
-  /* Font */
   font-family: Roboto, Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-size: 25px;
-
-  /* Spacing */
   line-height: 64.8px;
-  letter-spacing: normal;
-  word-spacing: 0px;
-
-  /* Decoration */
   font-weight: 900;
-  font-style: normal;
   text-indent: 0px;
-  text-transform: none;
   text-decoration: none solid rgb(33, 37, 41);
-
-  /* text responsiveness */
-  
   width: 1200px;
   max-width: 100%;
   box-sizing: border-box;
@@ -470,24 +301,16 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-
   color: #34342f;
   color: RGB(10, 10, 9);
-  background-color: #000000;
   background-color: RGBA(0, 0, 0, 0);
-
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
   line-height: 22px;
-  letter-spacing: normal;
-
   font-weight: 100;
-  /* PENDING HERE ABOVE                                      */
-  font-optical-sizing: auto;
   font-stretch: 100%;
   text-align: left;
   text-indent: 0px;
-
   margin-left: 110px;
   margin-right: 149px;
 }
@@ -498,45 +321,23 @@ body {
 
 .hyperlink {
   color: #007caf;
-
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
   line-height: 22px;
-  letter-spacing: normal;
-  word-spacing: 0px;
-
   font-weight: 300;
-  font-style: normal;
-  font-variant: normal;
-  font-kerning: auto;
-  font-optical-sizing: auto;
   font-stretch: 100%;
   font-variation-settings: normal;
-  font-feature-settings: normal;
-  text-transform: none;
   text-decoration: none solid rgb(10, 10, 9);
   text-indent: 0px;
 }
 
 .main-heading-3 {
-  /* Background Color */
-  background-color: #000000;
   background-color: RGBA(0, 0, 0, 0);
-
-  /* Font */
   font-family: Roboto, Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-size: 25px;
-
-  /* Spacing */
   line-height: 64.8px;
-  letter-spacing: normal;
-  word-spacing: 0px;
-
-  /* Decoration */
   font-weight: 900;
-  font-style: normal;
   text-indent: 0px;
-  text-transform: none;
   text-decoration: none solid rgb(33, 37, 41);
 }
 
@@ -544,31 +345,18 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-
   color: #0a0a09;
   color: RGB(10, 10, 9);
-  background-color: #000000;
   background-color: RGBA(0, 0, 0, 0);
-
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
   line-height: 22px;
-  letter-spacing: normal;
-  word-spacing: 0px;
-
   font-weight: 300;
-  font-style: normal;
-  font-variant: normal;
-  font-kerning: auto;
-  font-optical-sizing: auto;
   font-stretch: 100%;
   font-variation-settings: normal;
-  font-feature-settings: normal;
-  text-transform: none;
   text-decoration: none solid rgb(10, 10, 9);
   text-align: left;
   text-indent: 0px;
-
   margin-left: 135px;
   margin-right: 149px;
 }
@@ -576,28 +364,16 @@ body {
 .list-2 {
   color: #0a0a09;
   color: RGB(10, 10, 9);
-  background-color: #000000;
   background-color: RGBA(0, 0, 0, 0);
-
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
   line-height: 22px;
-  letter-spacing: normal;
-  word-spacing: 0px;
-
   font-weight: 300;
-  font-style: normal;
-  font-variant: normal;
-  font-kerning: auto;
-  font-optical-sizing: auto;
   font-stretch: 100%;
   font-variation-settings: normal;
-  font-feature-settings: normal;
-  text-transform: none;
   text-decoration: none solid rgb(10, 10, 9);
   text-align: left;
   text-indent: 0px;
-
   margin-left: 110px;
   margin-right: 149px;
 }
@@ -608,46 +384,23 @@ body {
 
 .view {
   color: #007caf;
-
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
   line-height: 22px;
-  letter-spacing: normal;
-  word-spacing: 0px;
-
   font-weight: 300;
-  font-style: normal;
-  font-variant: normal;
-  font-kerning: auto;
-  font-optical-sizing: auto;
-  font-stretch: 100%;
   font-variation-settings: normal;
-  font-feature-settings: normal;
-  text-transform: none;
   text-decoration: none solid rgb(10, 10, 9);
   text-indent: 0px;
-
   padding-right: 850px;
 }
 
 .main-heading-4 {
-  background-color: #000000;
   background-color: RGBA(0, 0, 0, 0);
-
-  /* Font */
   font-family: Roboto, Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-size: 25px;
-
-  /* Spacing */
   line-height: 64.8px;
-  letter-spacing: normal;
-  word-spacing: 0px;
-
-  /* Decoration */
   font-weight: 900;
-  font-style: normal;
   text-indent: 0px;
-  text-transform: none;
   text-decoration: none solid rgb(33, 37, 41);
 }
 
@@ -694,13 +447,10 @@ body {
   height: 33px;
   background-color: #e11b22;
   color: white;
-
   margin-top: 40px;
   border: none;
   border-radius: 3px;
 }
-
-/* ##################### */
 
 .box-2 img {
   width: 35px;
@@ -713,237 +463,9 @@ body {
   margin-top: 13px;
 }
 
-.title {
-  width: 100%;
-  height: 60px;
-  background-color: #212529;
-  display: flex;
-}
-
-.title h2 {
-  margin-left: 13px;
-}
-
 .box-2 button {
   width: 150px;
   height: 33px;
   background-color: #e11b22;
   color: white;
-
-  margin-top: 40px;
-
-  border: none;
-  border-radius: 3px;
-}
-
-/* ####################### */
-
-.box-3 img {
-  width: 35px;
-  height: 35px;
-  background-color: rgb(255, 255, 255);
-  border-color: rgb(255, 0, 0);
-  border-radius: 100px;
-  border: solid 1px red;
-  margin-left: 25px;
-  margin-top: 13px;
-}
-
-.title {
-  width: 100%;
-  height: 60px;
-  background-color: #212529;
-  display: flex;
-}
-
-.title h2 {
-  margin-left: 13px;
-}
-
-.box-3 button {
-  width: 230px;
-  height: 33px;
-  background-color: #e11b22;
-  color: white;
-
-  margin-top: 40px;
-
-  border: none;
-  border-radius: 3px;
-}
-
-.disclaimers-background {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #f0f0f0;
-  width: 100%;
-  height: 92px;
-}
-
-.disclaimers-box {
-  display: flex;
-  justify-content: start;
-  background-color: white;
-  width: 1070px;
-  height: 60px;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
-
-  color: rgb(80, 80, 80);
-  font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 13px;
-  font-weight: 400;
-  font-style: normal;
-  line-height: 18px;
-  line-height: 18px;
-  letter-spacing: normal;
-  word-spacing: 0px;
-  font-weight: 400;
-  font-style: normal;
-  font-variant: normal;
-  font-kerning: auto;
-  font-optical-sizing: auto;
-  font-stretch: 100%;
-  font-variation-settings: normal;
-  font-feature-settings: normal;
-  text-transform: none;
-  text-decoration: none solid rgb(33, 37, 41);
-  text-indent: 0px;
-}
-
-.disclaimers-box h2 {
-  margin-left: 20px;
-}
-
-.plus-div {
-  display: flex;
-  justify-content: end;
-  align-items: center;
-  margin-left: 880px;
-  margin-bottom: 20px;
-}
-
-.plus {
-  width: 20px;
-  height: 20px;
-}
-
-.whitespace {
-  color: white;
-}
-
-/* FOOTER */
-
-.footer {
-  display: flex;
-  background-color: #e8e8e8;
-  width: 100%;
-  height: 55px;
-}
-
-.footer-text-div {
-  margin-left: 140px;
-  padding-top: 10px;
-
-  color: #212529;
-  color: rgb(33, 37, 41);
-  background-color: #000000;
-  background-color: rgba(0, 0, 0, 0);
-
-  font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 12px;
-  font-weight: 400;
-  font-style: normal;
-  line-height: 18px;
-  line-height: 18px;
-  letter-spacing: normal;
-  word-spacing: 0px;
-  font-weight: 400;
-  font-style: normal;
-  font-variant: normal;
-  font-kerning: auto;
-  font-optical-sizing: auto;
-  font-stretch: 100%;
-  font-variation-settings: normal;
-  font-feature-settings: normal;
-  text-transform: none;
-  text-decoration: none solid rgb(33, 37, 41);
-  text-indent: 0px;
-}
-
-.footer-text-div span {
-  margin: 2px;
-}
-
-.footer-socialmedia-icons {
-  display: flex;
-  align-items: center;
-  margin-left: 215px;
-}
-
-.footer-socialmedia-icons img {
-  width: 20px;
-  height: 20px;
-  margin: 10px;
-}
-
-.border-logo {
-  width: 1px;
-  height: 85px;
-  background-color: rgb(196, 196, 196);
-}
-
-.border {
-  width: 1px;
-  height: 55px;
-  background-color: rgb(192, 192, 192);
-}
-
-/* .chat-box {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  position: fixed;
-  background-color: #fff;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-  z-index: 999;
-  width: 96px;
-  height: 93px;
-  margin-left: 1407px;
-  margin-top: 591px;
-  border-radius: 5px;
-} */
-
-.chat-box {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: fixed;
-  background-color: #fff;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-  z-index: 999;
-  width: 8%; /* Adjust as needed */
-  height: 15vh; /* Adjust as needed */
-  margin-left: 88%; /* Adjust as needed */
-  margin-top: 82vh; /* Adjust as needed */
-  border-radius: 5px;
-}
-
-
-
-
-
-.chat-box img {
-  width: 70%;
-  height: 70%;
-}
-
-.chat-box p {
-  font-size: 12px;
-  font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-
-.chat-box div {
-  text-align: center;
-}
+  
